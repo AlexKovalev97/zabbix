@@ -1,5 +1,5 @@
 #!/bin/bash
-token='618362520:AAEkjr5-31xHNhwP62t9_WGDQiNWII3oCDM'
+token='***'
 chat="$1"
 subj="$2"
 message="$3"
