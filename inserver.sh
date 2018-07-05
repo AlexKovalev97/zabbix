@@ -23,6 +23,6 @@ ServerName 10.0.0.10
 EOF
 systemctl start httpd 
 
-yum install -y -q zabbix-agent
-sed -i 's/ServerActive/#ServerActive/g' /etc/zabbix/zabbix_agentd.conf
-systemctl start zabbix-agent
+#yum install -y -q zabbix-agent
+#sed -i 's/ServerActive/#ServerActive/g' /etc/zabbix/zabbix_agentd.conf
+#systemctl start zabbix-agent
